@@ -25,7 +25,7 @@ public class Food : MonoBehaviour
 
     private void GenerateFood()
     {
-        for (int i = 0; i < (NumberOfGaps * 2) - (NumberOfGaps / 2); i++)
+        for (int i = 0; i < (NumberOfGaps * 2) - (NumberOfGaps / 2) + 3; i++)
         {   // Создаем Еду 
             GameObject food = GameObject.CreatePrimitive(PrimitiveType.Sphere);
             GameObject basefood = new GameObject();
